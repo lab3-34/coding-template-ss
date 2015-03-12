@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* ----------------------------------------------------------------------------
+    BASE
+---------------------------------------------------------------------------- */
+
+body {
+  font-size: $base-font-size;
+  color: $base-font-color;
+  font-family: $base-font-family;
+}
+div{
+  line-height: 1;
+}
+p{
+  line-height:1.5;
+}
+
+/* link setting */
+a{
+  color:$link-color;
+  outline:none;
+  text-decoration:none;
+  &:visited{
+    color:$link-color;
+  }
+  &:hover{
+    color:$link-color-hover;
+    text-decoration:underline;
+  }
+  &:active{
+    color:$link-color;
+  }
+}
+
+/* ----------------------------------------------------------------------------
+    ASSETS
+---------------------------------------------------------------------------- */
+
+/* clearfix */
+.clearfix:after{/*for modern browser*/
+  content:" ";
+  display:block;
+  height:0px;
+  clear:both;
+  visibility:hidden;
+  font-size:0.1em;
+  line-height:0;
+}
+

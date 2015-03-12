@@ -1,0 +1,20 @@
+//
+// Variables original
+// --------------------------------------------------
+$experimental-support-for-opera       : false !default;
+
+// Global values
+// --------------------------------------------------
+
+// fonts
+// --------------------------
+// bodyにかけるフォントスタイル
+$base-font-size: 14px;
+$base-font-family: sans-serif;
+$base-font-color: #333;
+
+// link color
+// --------------------------
+// ベースとするリンクカラー
+$link-color:#1973c5;
+$link-color-hover:$link-color;
